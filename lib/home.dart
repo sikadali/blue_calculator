@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Column(children: [
-          Row(
+          /*Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               createButton("e", const Color(0xff7CC9FF), Colors.white, 16,
@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                   FontWeight.normal, widthButtons, 40),
               const SizedBox(width: 20),
             ],
-          ),
+          ),*/
           const SizedBox(height: 16),
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -128,8 +128,8 @@ class _HomePageState extends State<HomePage> {
           ),
         ]),
         Column(mainAxisAlignment: MainAxisAlignment.start, children: [
-          createButton("deg", const Color(0xff7CC9FF), Colors.white, 16,
-              FontWeight.normal, widthButtons, 40),
+          /*createButton("deg", const Color(0xff7CC9FF), Colors.white, 16,
+              FontWeight.normal, widthButtons, 40),*/
           const SizedBox(height: 16),
           createButton("*", const Color(0xff109DFF), const Color(0xffADE2FF),
               32, FontWeight.w500, widthButtons, 62),
@@ -204,7 +204,7 @@ class _HomePageState extends State<HomePage> {
           height: 96,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-              color: Color(0xff19ACFF),
+              color: const Color(0xff19ACFF),
               borderRadius: BorderRadius.circular(16),
               boxShadow: const [
                 BoxShadow(

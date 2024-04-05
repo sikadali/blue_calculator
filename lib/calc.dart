@@ -79,6 +79,9 @@ class Calculator {
         values.add(leftOperand * rightOperand);
         break;
       case '/':
+        if (rightOperand == 0) {
+          throw ArgumentError("Division by zero is not allowed");
+        }
         values.add(leftOperand / rightOperand);
         break;
     }
